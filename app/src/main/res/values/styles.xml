@@ -1,0 +1,37 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="ScoreButtons" parent="Widget.AppCompat.Button">
+        <item name="android:tint">#3F51B5</item>
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+    <style name="PlusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_add_circle_outline_black_24dp</item>
+    </style>
+    <style name="MinusButtons" parent="ScoreButtons">
+        <item name="android:src">@drawable/ic_remove_circle_outline_black_24dp</item>
+
+    </style>
+
+    <style name="ScoreText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display3</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_alignParentTop">true</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:layout_marginTop">146dp</item>
+        <item name="android:layout_marginEnd">197dp</item>
+        <item name="android:layout_marginRight">197dp</item>
+    </style>
+
+    <style name="TeamText">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Display1</item>
+    </style>
+</resources>
